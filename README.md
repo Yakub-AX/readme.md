@@ -160,7 +160,7 @@ src/
 Правильно ✅:
 
 ```ts
-enum someCoolEnum {
+enum SomeCoolEnum {
   BrokerAgent = "BrokerAgent",
   BrokerAgency = "BrokerAgency",
 }
@@ -169,7 +169,7 @@ enum someCoolEnum {
 Неправильно ❌:
 
 ```ts
-enum someCoolEnum {
+enum SomeCoolEnum {
   broker_agent = "broker_agent",
   broker_agency = "broker_agency",
 }
